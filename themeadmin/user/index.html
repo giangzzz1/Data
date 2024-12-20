@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Dashboard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <!-- Sidebar -->
+        <div class="row">
+            <nav class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
+                <div class="profile-section text-center py-4">
+                    <img src="assets/user-avatar.png" alt="User Avatar" class="avatar">
+                    <h3 class="username">John Doe</h3>
+                </div>
+                <ul class="nav flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="my-account.html">Tài khoản của tôi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="orders.html">Đơn hàng</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="addresses.html">Địa chỉ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bank.html">Ngân hàng</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Đăng xuất</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Main Content -->
+            <main class="col-md-9 ms-sm-auto col-lg-10 px-md-4">
+                <h1 class="mt-4">Welcome to your Dashboard, John!</h1>
+                <p>Chọn các mục trong thanh điều hướng để xem chi tiết thông tin cá nhân và đơn hàng.</p>
+            </main>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
